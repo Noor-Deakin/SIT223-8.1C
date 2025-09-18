@@ -1,0 +1,26 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout') {
+            steps {
+                git branch: 'main', url: 'https://github.com/Noor-Deakin/SIT223-8.1C'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo "Building project..."
+                // Example build command (Maven, Gradle, or any script)
+                bat 'mvn clean package'   // use 'sh' if on Linux agent
+            }
+        }
+
+        stage('Test') {
+            steps {
+                echo "Running tests..."
+                bat 'mvn test'
+            }
+        }
+    }
+}
