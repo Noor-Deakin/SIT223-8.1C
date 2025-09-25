@@ -1,20 +1,9 @@
 {
-  "name": "sit223-8.1c",
+  "name": "task3",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests yet\" && exit 0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Noor-Deakin/SIT223-8.1C.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Noor-Deakin/SIT223-8.1C/issues"
-  },
-  "homepage": "https://github.com/Noor-Deakin/SIT223-8.1C#readme"
+  "license": "ISC"
 }
